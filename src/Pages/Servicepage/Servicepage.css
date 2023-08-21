@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.secondmaincontainer{
+    height: fit-content;
+    width: 100%;
+}
+.seventhcontainer{
+    height: 50vh;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.seventhcontainer h1{
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+.eighthcontainer {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+
+.Image1 , .Image2, .Image3 {
+    height: 40vh;
+    width: 25%;
+    margin: 70px;
+    font-size: 20px;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color: rgb(234, 230, 230);
+    text-align: center;
+}
+.Image1 h3 , .Image2 h3 , .Image3 h3{
+    margin: 10px;
+    color: rgb(172, 172, 29);
+}
+.Image1 p , .Image p , .Image3 p{
+    margin: 10px;
+}
+.ninethcontainer {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.Image4 , .Image5, .Image6 {
+    height: 40vh;
+    width: 25%;
+    margin: 70px;
+    font-size: 20px;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color:  rgb(234, 230, 230);
+    text-align: center;
+}
+.Image4 h3 , .Image5 h3 , .Image6 h3{
+    margin: 10px;
+    color: rgb(172, 172, 29);
+}
+.Image p , .Image5 p , .Image6 p{
+    margin: 10px;
+}
+.tenthcontainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.tenthcontainer h4{
+    text-align: left;
+    color: rgb(36, 36, 140);
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-size: 35px !important;
+    font-family: sans-serif;
+
+}
+.tenthcontainer p{
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10% !important;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 20%;
+    font-size: 18px;
+}

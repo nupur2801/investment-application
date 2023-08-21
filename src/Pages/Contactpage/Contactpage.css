@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fourth-container{
+    height: fit-content;
+    width: 100%;
+
+}
+.fifteenthcontainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.formcontainer{
+    height: 80vh;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.formcontainer form{
+    margin-top: 20% !important;
+    height: 100%;
+    width: 60%;
+    background-image: linear-gradient(rgb(241, 240, 240),rgb(188, 188, 188));
+    border-radius: 6px;
+    margin: 10px;
+    
+}
+.formcontainer form h2,h3{
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formcontainer form input{
+    margin-left: 25% !important;
+    margin: 2px;
+    padding: 8px 25px;
+    flex-direction: column;
+    display: flex;
+    border: 1.5px solid  rgb(237, 78, 78);
+    border-radius: 3px;
+}
+.formcontainer form button{
+    background-color: rgb(237, 78, 78);
+    border: none;
+    margin: 2px;
+    padding: 8px 15px;
+    border-radius: 3px;
+    color: whitesmoke;
+    margin-left: 33% !important;
+}
+.fifteenth-paracontainer{
+    height: 80vh;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+.fifteenth-paracontainer h4{
+    font-size: 20px;
+    color: rgb(237, 78, 78);
+    margin-bottom: 3%;
+    margin-top: 20%;
+}
+.fifteenth-paracontainerh2{
+    font-size: 45px;
+    margin: 5%;
+
+}
+.fifteenth-paracontainer p{
+    font-size: 20px;
+    margin-top: 2%;
+}
+.locemail{
+    height: 40vh;
+    width: 50%;
+    display: flex;
+
+}
+.location , .emailaddress{
+    margin-top: 15%;
+    height: 40vh;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.location h2 , .emailaddress h2{
+    color: rgb(32, 32, 116);
+}
+.sixteenth-container{
+    height: 60vh;
+    width: 100%;
+}
+.sixteenth-container h2{
+    color: rgb(28, 28, 127) ;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.sixteenth-container p{
+    padding: 15px;
+    margin: 3%;
+}
+.location img , .emailaddress img{
+    height: 30%;
+}

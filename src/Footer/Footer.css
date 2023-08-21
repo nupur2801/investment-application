@@ -1,0 +1,54 @@
+.footer {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    background-color:  rgb(246, 78, 78);
+    justify-content: center;
+    align-items: center;
+}
+
+.phonenumber {
+    height: 20vh;
+    width: 25%;
+    margin: 70px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 6px;
+
+}
+.phonenumber img{
+    height: 30%;
+    margin: 5%;
+}
+
+.email {
+    height: 20vh;
+    width: 25%;
+    margin: 70px;
+    font-size: 20px;
+    flex-direction: column;
+    border-radius: 6px;
+    color: white;
+
+}
+.email img{
+    height: 25%;
+    margin: 5%;
+}
+
+.address {
+    height: 20vh;
+    width: 25%;
+    margin: 70px;
+    font-size: 20px;
+    flex-direction: column;
+    border-radius: 6px;
+    color: white;
+}
+.address img{
+    height: 30%;
+    margin: 5%;
+}

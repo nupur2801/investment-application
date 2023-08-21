@@ -1,0 +1,27 @@
+.logo {
+    font-size: 30px;
+    color: whitesmoke;
+    margin-right: 60%;
+    font-family: cursive;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(246, 78, 78);
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 2000;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.navbar a:hover {
+    color:  rgb(60, 60, 160);
+}
